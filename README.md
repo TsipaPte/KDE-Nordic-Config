@@ -1,7 +1,5 @@
 # KDE-Nordic-Config
 
-# KDE-Nordic-Config
-
 Кастомизируем KDE Plasma с Nordic темой. Так же мы установим и настроим ZSH и Oh My ZSH. Результат вы видите на скриншотах
 
 <img src="img/Nordic.png">
@@ -22,7 +20,7 @@
 
 Далее берём директорию `aurorae` из директории `Nordic/kde` (не Nordic-kde!) и копируем в ~/.local/share/aurorae/themes
 
-Создаём: `mkdir -p /.local/share/aurorae/themes`
+Создаём: `mkdir -p ~/.local/share/aurorae/themes`
 <br>
 Копируем: `cp ~/Nordic/kde/aurorae /.local/share/aurorae/themes`
 
