@@ -16,6 +16,7 @@
 Далее нам нужно переместить Nordic-kde в директорию `~/.local/share/plasma/desktopthemes` под именем Nordic.
 
 Создаём директорию командой: `mkdir -p ~/.local/share/plasma/desktopthemes`
+<br>
 И перемещаем Nordic-Kde: `mv ~/Nordic-kde ~/.local/share/plasma/desktopthemes`
 
 Далее берём директорию `aurorae` из директории `Nordic/kde` (не Nordic-kde!) и копируем в ~/.local/share/aurorae/themes
@@ -62,3 +63,18 @@
 - Перейдите в `Colors & Themes >> Cursors` и установите `Nordic-cursors`
 
 Далее щёлкните ПКМ по рабочему столу, затем Desktop and Wallpaper. Нажмите Add, перейдите в Pictures и выберите Nordic (или любые другие обои)
+
+## Oh My Zsh
+
+Далее необходимо скачать и установить zsh с oh my zsh.
+
+`sudo apt install zsh`
+<br>
+После зайдите в настройки вашего профиля Konsole (ПКМ >> Edit current profile) >> Command. Измените `/bin/bash` на `/bin/zsh`
+<br>
+Далее скачайте oh my zsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+И ответьте на вопросы
+
+`Do you want to change your default shell to zsh? [Y/n]` - Хотите изменить оболочку на Zsh? - Рекомендую `n`
+<br>
+`Found ~/.zshrc. Backing up to ~/.zshrc.pre-oh-my-zsh` - Хотите сделать backup конфиг файла (возможно этот вопрос у вас не появится) - Рекомендую `y`
