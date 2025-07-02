@@ -72,7 +72,10 @@
 <br>
 После зайдите в настройки вашего профиля Konsole (ПКМ >> Edit current profile) >> Command. Измените `/bin/bash` на `/bin/zsh`
 <br>
-Далее скачайте oh my zsh: `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+Далее скачайте oh my zsh:
+<br>
+`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+<br>
 И ответьте на вопросы
 
 `Do you want to change your default shell to zsh? [Y/n]` - Хотите изменить оболочку на Zsh? - Рекомендую `n`
