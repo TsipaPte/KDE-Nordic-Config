@@ -23,7 +23,7 @@
 
 Создаём: `mkdir -p ~/.local/share/aurorae/themes`
 <br>
-Копируем: `cp ~/Nordic/kde/aurorae ~/.local/share/aurorae/themes`
+Копируем: `cp -r ~/Nordic/kde/aurorae ~/.local/share/aurorae/themes`
 
 Далее берём файл `Nordic.colors` из директории `Nordic/kde/colorschemes` и копируем в `.local/share/color-schemes`
 
@@ -35,7 +35,7 @@
 
 Создаём: `mkdir -p ~/.icons`
 <br>
-Копирем: `cp ~/Nordic/kde/cursors/Nordic-cursors/ ~/.icons/Nordic-cursors`
+Копирем: `cp -r ~/Nordic/kde/cursors/Nordic-cursors/ ~/.icons/Nordic-cursors`
 
 Далее берём файл `Nordic.colorscheme` из директории `Nordic/kde/konsole` и копирем его в директорию `~/.local/share/konsole`:
 
