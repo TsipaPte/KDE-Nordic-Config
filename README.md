@@ -104,6 +104,38 @@
 <br>
 Готово! Применяем изменения: `source ~/.zshrc`
 
+## Rofi
+
+Rofi - мощный инструмент для запуска приложений только по их названию / части названия. Сейчас мы его установим и настроем.
+
+Установка: `sudo apt install rofi`
+<br>
+Далее скачаем  и переместим тему Nordic для rofi:
+Скачиваем: `git clone https://github.com/undiabler/nord-rofi-theme`
+<br>
+Создаём директорию: `mkdir ~/.config/rofi`
+<br>
+Перемещаем: `mv nord-rofi-theme/nord.rasi ~/.config/rofi/nordic.rasi`
+<br>
+Очистка: `rm -rf nord-rofi-theme`
+<br>
+Создаём config: `cd ~/.config/rofi && nano config.rasi`
+<br>
+Далее вставьте туда этот текст:
+```
+configuration {
+    modi: "drun,run,window";
+
+    display-drun: ">_";
+    display-run: ">_";
+    display-window: ">_";
+    show-icons:     true;
+}
+
+
+@theme "~/.config/rofi/nordic.rasi"
+```
+
 ## Ranger
 
 ### О Ranger
