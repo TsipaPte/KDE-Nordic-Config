@@ -103,3 +103,31 @@
 Далее в файле `.zshrc` найдите строчку `plugins=(...)` и добавьте в конец `zsh-syntax-highlighting`. Должно получиться `plugins=(... zsh-syntax-highlighting)`
 <br>
 Готово! Применяем изменения: `source ~/.zshrc`
+
+## Ranger
+
+### О Ranger
+
+Ranger - файловый менеджер работающий без GUI (работает только в терминале, CLI). Использует горячие клавиши Vim. Возможно, вам понравится это больше чем стандартные файловые менеджеры типа Thunar и Dolphin. Более подробно вы можете прочитать в Интернете.
+
+### Установка Ranger
+
+Если вам такое интресено, можете установить командой
+
+`sudo apt install ranger`
+<br>
+
+И запустить аналогично: `ranger`.
+
+## Vimium
+
+### О Vimium
+
+Vimium - браузерное расширения для Google Chrome, Mozilla Firefox, и другие браузеров. Он позволяет использовать только клавиатуру для сёрфинга с Интернете. Для просмотра всех ссылок вы можете нажать клавишу `F`, а для перехода по ссылке нажать соответствующее сочитание клавиш. Также для скрола стракницы можно использовать клавиши `HJKL`. Для просмотра всех горячих клавиш достаточно нажать на `?`
+
+### Установка Vimium
+
+* [Для FireFox](https://addons.mozilla.org/ru/firefox/addon/vimium-ff/)
+* [Для Google Chrome](https://chromewebstore.google.com/detail/vimium/dbepggeogbaibhgnhhndojpepiihcmeb)
+* [Для Microsoft Edge](https://microsoftedge.microsoft.com/addons/detail/vimium/djmieaghokpkpjfbpelnlkfgfjapaopa)
+* [Официальный сайт разработчика](https://vimium.github.io/) / [GitHub](https://github.com/philc/vimium)
