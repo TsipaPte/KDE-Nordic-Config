@@ -10,6 +10,9 @@
 
 И так первое что нам нужно сделать скачать Nordic и Nordic-KDE. Из Nordic будем брать иконки, курсоры, тему терминала Konsole. А Nordic-KDE - сама тема Nordic для KDE.
 
+Переместимся в домашнюю директорию: `cd`
+<br>
+
 `git clone https://github.com/EliverLara/Nordic`
 <br>
 `git clone https://github.com/EliverLara/Nordic-kde`
