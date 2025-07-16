@@ -4,6 +4,7 @@
 
 <img src="img/Nordic.png">
 <img src="img/Nordic2.png">
+<img src="img/Nordic3.png">
 
 ## Скачиваем тему Nordic
 
@@ -111,6 +112,7 @@ Rofi - мощный инструмент для запуска приложен�
 Установка: `sudo apt install rofi`
 <br>
 Далее скачаем  и переместим тему Nordic для rofi:
+<br>
 Скачиваем: `git clone https://github.com/undiabler/nord-rofi-theme`
 <br>
 Создаём директорию: `mkdir ~/.config/rofi`
@@ -125,13 +127,16 @@ Rofi - мощный инструмент для запуска приложен�
 ```
 configuration {
     modi: "drun,run,window";
-
+    show-icons: true;
     display-drun: ">_";
     display-run: ">_";
     display-window: ">_";
-    show-icons:     true;
 }
 
+entry {
+    placeholder: "Run a program";
+    placeholder-color: #adadad;
+}
 
 @theme "~/.config/rofi/nordic.rasi"
 ```
