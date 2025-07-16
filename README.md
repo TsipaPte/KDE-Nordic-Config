@@ -1,6 +1,6 @@
 # KDE-Nordic-Config
 
-Кастомизируем KDE Plasma с Nordic темой. Так же мы установим и настроим ZSH и Oh My ZSH. Результат вы видите на скриншотах
+Кастомизируем KDE Plasma с Nordic темой. Так же мы установим и настроим ZSH, Oh My ZSH и Rofi. Результат вы видите на скриншотах
 
 <img src="img/Nordic.png">
 <img src="img/Nordic2.png">
