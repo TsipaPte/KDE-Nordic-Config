@@ -51,7 +51,7 @@
 - Создайте директорию для шрифтов и перейдите в неё: `mkdir -p ~/.local/share/fonts && cd ~/.local/share/fonts`
 - Скачайте шрифт: `wget https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/Hack.zip`
 - Распакуйте: `unzip Hack.zip`
-- И наконей установите его в систему: `fc-cache -fv`
+- И наконец установите его в систему: `fc-cache -fv`
 
 После в настройках терминала укажите шрифт `Hack Nerd Font` и комфортный размер шрифта
 
